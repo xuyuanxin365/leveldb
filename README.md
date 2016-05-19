@@ -4,6 +4,12 @@
 
 Authors: Sanjay Ghemawat (sanjay@google.com) and Jeff Dean (jeff@google.com)
 
+**LevelDB.Net is a C++/CLI version of leveldb, which makes it work well on Windows and .Net.**
+
+Authors: Erik Zhang (erik@vcage.com)
+
+NuGet: https://www.nuget.org/packages/LevelDB.Net/
+
 # Features
   * Keys and values are arbitrary byte arrays.
   * Data is stored sorted by key.

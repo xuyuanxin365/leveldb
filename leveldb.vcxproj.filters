@@ -135,6 +135,39 @@
     <ClCompile Include="util\env_windows.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="wapper\LevelDB.BloomFilterPolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.DB.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.FilterPolicy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.Iterator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.LevelDBException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.ReadOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.Slice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.Snapshot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.WriteBatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wapper\LevelDB.WriteOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="db\builder.h">
@@ -297,6 +330,42 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="util\win_logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.BloomFilterPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.CompressionType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.DB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.FilterPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.Iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.LevelDBException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.ReadOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.Slice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.Snapshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.WriteBatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wapper\LevelDB.WriteOptions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
