@@ -4,7 +4,17 @@ using namespace LevelDB;
 
 Options::Options(void)
 {
+	this->CreateIfMissing = false;
+	this->ErrorIfExists = false;
+	this->ParanoidChecks = false;
+	this->WriteBufferSize = 4 << 20;
+	this->MaxOpenFiles = 1000;
+	this->BlockSize = 4096;
+	this->BlockRestartInterval = 16;
+	this->MaxFileSize = 2 << 20;
 	this->Compression = CompressionType::SnappyCompression;
+	this->ReuseLogs = false;
+	this->FilterPolicy = nullptr;
 }
 
 leveldb::Options Options::ToUnmanaged()
