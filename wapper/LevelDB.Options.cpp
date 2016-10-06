@@ -17,6 +17,7 @@ leveldb::Options Options::ToUnmanaged()
 	options.max_open_files = MaxOpenFiles;
 	options.block_size = BlockSize;
 	options.block_restart_interval = BlockRestartInterval;
+	options.max_file_size = MaxFileSize;
 	options.compression = (leveldb::CompressionType)(int)Compression;
 	options.reuse_logs = ReuseLogs;
 	options.filter_policy = FilterPolicy == nullptr ? nullptr : FilterPolicy->policy;

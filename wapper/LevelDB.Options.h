@@ -17,6 +17,7 @@ namespace LevelDB
 		int MaxOpenFiles;
 		size_t BlockSize;
 		int BlockRestartInterval;
+		size_t MaxFileSize;
 		CompressionType Compression;
 		bool ReuseLogs;
 		FilterPolicy^ FilterPolicy;
